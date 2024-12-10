@@ -1,0 +1,29 @@
+.hero {
+    height: 507px;
+    padding: 58px 24px;
+    background-image: url('../../assets/images/hero-background.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: white;
+}
+
+.hero-header {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;  
+    display: flex;
+    gap: 120px;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+
+
+@media screen and (min-width: 760px) {
+    .hero {
+        height: 813px;
+    }
+}
